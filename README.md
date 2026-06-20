@@ -62,14 +62,17 @@ These results support the conclusion that the strength of a hybrid encryption sc
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/fatin33/Performance-Analysis-of-AES-with-ECDH.git
+cd Performance-Analysis-of-AES-with-ECDH
+python -m venv .venv
+.venv\Scripts\Activate.ps1      # Windows
+source .venv/bin/activate     # macOS/Linux
 
 # 2. Install dependencies
 pip install -r requirements.txt
 
 # 3. Run the benchmark
-python main.py
+python src/GUI_Tkinter/main.py
 ```
 
 ## Limitations
